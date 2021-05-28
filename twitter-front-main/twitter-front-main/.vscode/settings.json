@@ -1,6 +1,0 @@
-{
-	"editor.formatOnSave": true,
-	"editor.tabSize": 4,
-	"css.validate": false,
-	"typescript.disableAutomaticTypeAcquisition": true
-}
