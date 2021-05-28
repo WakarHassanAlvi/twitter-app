@@ -1,0 +1,63 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<style>
+.card{
+    margin-top: 50px;
+}
+.list-group
+{
+  list-style-type: none;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+/*.tweet-item
+{
+  border: 0 none;
+}*/
+</style>
+<div class="col-md-6 offset-md-3 shadow">
+  <div class="card">
+    <center><h2 class="center">Make a Tweet!</h2></center>
+    <div class="card-body">
+      <form onSubmit="App.createTweet(); return false;">
+        <input id="newTweet" type="text" class="form-control" placeholder="New Tweet" required>
+        <button class="btn btn-primary mt-2 add-button" type="submit">Add Tweet</button>
+      </form>
+
+      <!--The below list will be used to append all the tweets-->
+      <ul class="tweetList list-group mt-2"></ul>
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Please do not leave the textbox empty.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info close-btn text-white" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!--<script src="effects.js"></script>-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+<script src="app.js"></script>
+<script type="text/javascript">
+  function update_click(clicked_id)
+  {
+      var tweetId = clicked_id.replace('upd','');
+      $('#btns'+tweetId).hide();
+      $('#updateForm'+tweetId).show();
+  }
+</script>

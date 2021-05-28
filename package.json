@@ -1,0 +1,26 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "dev": "lite-server",
+    "migrate": "truffle migrate --network ropsten",
+    "docker:test": "docker-compose -p twitter-test -f docker-compose.tests.yml up",
+    "docker:migrate": "docker-compose -p twitter -f docker-compose.migrate.yml up"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "bootstrap": "^5.0.0",
+    "truffle-contract": "^4.0.31"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
