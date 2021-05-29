@@ -30,6 +30,7 @@ This may require additional global npm installations, but here's an indication o
 If you plan to work on the code, you may also want to install additional plugins on VSCode or your favourite IDE:
 
 - Prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+- Beautifier: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
 - ESLint: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 - Solidity: https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity
 
