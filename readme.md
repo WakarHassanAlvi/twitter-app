@@ -86,6 +86,8 @@ To deploy the smart contracts:
 - `truffle compile`
 - `truffle migrate --network ropsten` (you may also replace `ropsten` by the network of your choice)
 
+---
+
 ## Lite Server
 
 This project uses Web3 to attach a GUI to our Ethereum Smart Contract which will allow you to create/update/delete a Tweet from the browser. 
