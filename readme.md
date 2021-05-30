@@ -54,7 +54,7 @@ To have a coverage of your tests, run:
 <strong>OR</strong>
 
 
-- `npx truffle run coverage`
+- `npx truffle run coverage` (Use this Preferably)
 
 To migrate to ropsten, run:
 
