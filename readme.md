@@ -26,6 +26,7 @@ This may require additional global npm installations, but here's an indication o
 
 - `npm install -g truffle && npm install -g ganache-cli`
 - `npm install`
+- `npm install dotenv`
 
 If you plan to work on the code, you may also want to install additional plugins on VSCode or your favourite IDE:
 
