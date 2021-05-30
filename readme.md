@@ -50,9 +50,10 @@ And run the tests in another terminal:
 To have a coverage of your tests, run:
 
 - `npm run coverage` (This command is not yet containerized)
----
+
 <strong>OR</strong>
----
+
+
 - `npx truffle run coverage`
 
 To migrate to ropsten, run:
