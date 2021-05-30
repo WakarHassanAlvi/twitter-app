@@ -85,3 +85,10 @@ To deploy the smart contracts:
 
 - `truffle compile`
 - `truffle migrate --network ropsten` (you may also replace `ropsten` by the network of your choice)
+
+## Truffle commands
+
+This project has a Front-end which will allow you to create/update/delete a Tweet from the browser.
+The following command will start the lite-server for you to test the app using the front-end:
+
+- `npm run dev --network ropsten`
